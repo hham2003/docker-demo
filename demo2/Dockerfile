@@ -1,7 +1,7 @@
 # Use the latest version of the python image from Docker Hub
 FROM python:latest
 
-# Define the root directory within the container
+# Define the working directory within the container
 WORKDIR /app
 
 # Copy files from local directory into container directory
